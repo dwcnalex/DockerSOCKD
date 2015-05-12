@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debian:latest
 MAINTAINER Ejz <ejz@ya.ru>
 
 ENV DEBIAN_FRONTEND noninteractive
