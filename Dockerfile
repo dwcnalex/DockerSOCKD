@@ -10,4 +10,4 @@ RUN cd dante-* && ./configure && make && make install
 ADD ./danted.conf /etc/danted.conf
 
 EXPOSE 1080
-CMD ["/usr/local/sbin/sockd", "-D", "-f", "/etc/danted.conf"]
+CMD ["/usr/local/sbin/sockd", "-f", "/etc/danted.conf"]
