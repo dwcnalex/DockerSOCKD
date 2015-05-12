@@ -5,6 +5,8 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get -y install wget
+RUN apt-get -y install gcc
+RUN apt-get -y install build-essential
 RUN wget --no-check-certificate -q "https://www.inet.no/dante/files/dante-1.4.1.tar.gz"
 RUN gzip -dc dante-*.tar.gz | tar xvf -
 RUN cd dante-*
