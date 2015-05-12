@@ -11,6 +11,7 @@ RUN wget --no-check-certificate -q "https://www.inet.no/dante/files/dante-1.4.1.
 RUN gzip -dc dante-*.tar.gz | tar xvf -
 RUN cd dante-*
 RUN ./configure && make && make install
+ADD ./danted.conf /etc/danted.conf
 
 EXPOSE 1080
-CMD ["/usr/sbin/sockd", "-D"]
+CMD ["/usr/local/sbin/sockd", "-d", "-f", "/etc/danted.conf"]
