@@ -8,6 +8,8 @@ RUN wget --no-check-certificate -q "https://www.inet.no/dante/files/dante-1.4.1.
 RUN gzip -dc dante-*.tar.gz | tar xvf -
 RUN cd dante-* && ./configure && make && make install
 ADD ./danted.conf /etc/danted.conf
+RUN useradd -d /home/sockd -m -s /bin/bash sockd
+RUN echo sockd:sockd | chpasswd
 
 EXPOSE 1080
 CMD ["/usr/local/sbin/sockd", "-f", "/etc/danted.conf"]
