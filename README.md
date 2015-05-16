@@ -1,4 +1,4 @@
-# SOCKD
+# DockerSOCKD
 
 Docker container with proxy server (Dante aka SOCKD) on board!
 
