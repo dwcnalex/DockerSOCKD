@@ -10,7 +10,7 @@ Firstly, let's install [Docker](https://www.docker.com/):
 $ wget -q -O - "https://get.docker.com/" | sudo sh
 ```
 
-Pull the image from Docker Hub:
+Pull the [image](https://registry.hub.docker.com/u/ejzspb/sockd/) from Docker Hub:
 
 ```bash
 $ sudo docker pull ejzspb/sockd
