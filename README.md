@@ -1,6 +1,6 @@
 # DockerSOCKD
 
-Docker container with proxy server (Dante aka SOCKD) on board!
+Docker with SOCKS server (aka Dante) on board!
 
 ### Quick start
 
@@ -10,19 +10,19 @@ Firstly, let's install [Docker](https://www.docker.com/):
 $ wget -q -O - "https://get.docker.com/" | sudo sh
 ```
 
-Build your own image:
-
-```bash
-$ sudo docker build --tag="sockd" 'github.com/Ejz/SOCKD'
-Successfully built 40f179bee5a9
-```
-
-Or you can easily pull image from Docker Hub:
+Pull the image from Docker Hub:
 
 ```bash
 $ sudo docker pull ejzspb/sockd
 Pulling repository ejzspb/sockd
 Status: Downloaded newer image for ejzspb/sockd:latest
+```
+
+Or you can build your own image:
+
+```bash
+$ sudo docker build --tag="sockd" 'github.com/Ejz/DockerSOCKD'
+Successfully built 40f179bee5a9
 ```
 
 Run container based on this image:
