@@ -59,7 +59,7 @@ $ cd .. && rm -rf DockerSOCKD
 
 ### Contributing
 
-Feel free to:
+I love to have your help to make this project better. So feel free to:
 
 * open an [issue](https://github.com/Ejz/DockerSOCKD/issues), if you have any problem
 * fork the project and submit [pull request](https://github.com/Ejz/DockerSOCKD/pulls)
