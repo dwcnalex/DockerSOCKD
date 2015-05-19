@@ -64,4 +64,6 @@ I love to have your help to make this project better. So feel free to:
 * open an [issue](https://github.com/Ejz/DockerSOCKD/issues), if you have any problem
 * fork the project and submit [pull request](https://github.com/Ejz/DockerSOCKD/pulls)
 * contact me via email address <ejz@ya.ru>
+* comment [this post](http://ejz.ru/551/docker-with-socks-server) in my blog
+* visit project's [Docker Hub page](https://registry.hub.docker.com/u/ejzspb/sockd/)
 * star the project, if you like it
