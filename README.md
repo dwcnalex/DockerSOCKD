@@ -39,7 +39,7 @@ $ curl --proxy-user sockd:sockd --socks5 127.0.0.1:1080 'http://check-host.net/i
 10.0.0.1
 ```
 
-### CI
+### Tests
 
 To run continuous integration test, please, execute:
 
