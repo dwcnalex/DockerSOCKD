@@ -35,7 +35,7 @@ d80c9e34575eb16fb1b34d6173a2a7f1837735b2f4e7580ac4e9cd8986c38a3c
 Test it:
 
 ```bash
-$ curl --proxy-user sockd:sockd --socks5 127.0.0.1:1080 'http://check-host.net/ip'
+$ curl --proxy-user sockd:sockd --socks5 127.0.0.1:1080 'http://ejz.ru/ip'
 10.0.0.1
 ```
 
